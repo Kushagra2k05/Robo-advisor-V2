@@ -62,4 +62,20 @@ Given current portfolio holdings and optimal targets, it computes:
 ---
 
 ## 📂 Project Structure
+Robo-advisor-V2/
+│── main.py
+│── README.md
+│── requirements.txt
+│── config/
+│ └── assets.py
+└── services/
+├── risk_profile.py
+├── price_fetcher.py
+├── mpt_optimizer.py
+├── black_litterman.py
+├── goals.py
+├── monte_carlo.py
+├── rebalance.py
+├── backtest.py
+└── health_score.py
 
